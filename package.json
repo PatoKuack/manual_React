@@ -1,0 +1,19 @@
+{
+  "name": "react",
+  "version": "1.0.0",
+  "description": "A manual to know how to use React.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "js",
+    "javascript",
+    "React",
+    "componente",
+    "propiedad"
+  ],
+  "author": "Pato Kuack <nocturno_x_13514@hotmail.com>",
+  "license": "MIT"
+}
