@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .code-block {
+    @apply block w-fit p-4 mx-auto bg-transparent-dark md:mx-0;
+  }
+  .block-duo {
+    @apply flex flex-col gap-4 md:flex-row;
+  }
+  .note {
+    @apply inline-block bg-indigo-900 shadow-inner shadow-indigo-200 py-2 px-4;
+  }
+  .text-title {
+    @apply text-center mt-0 italic text-sky-300;
+  }
+  section, footer {
+    @apply max-w-5xl mx-auto my-4 px-8 pt-6 pb-8 bg-gradient-to-tl from-secondary from-0% via-primary via-10% to-primary to-90% shadow-lg shadow-secondary sm:px-12 sm:pt-8 sm:pb-12;
+  }
+  .link {
+    @apply block text-purple-300 visited:text-purple-500;
+  }
+}
