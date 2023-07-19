@@ -57,7 +57,6 @@ export const PageR12 = () => {
         [build]<br/>
         <i className="font-light opacity-80">// Se coloca el nombre de la carpeta resultante del comando "npm run build", a veces se llama "build", pero en este caso es "dist". Después se coloca el comando.</i><br/>
         &emsp;publish: "dist"<br/>
-        &emsp;command: "npm run build"<br/>
         <i className="font-light opacity-80">// Si se sube un proyecto de React se coloca el command<br/>
         &emsp;command: "CI='' npm run build"</i>
       </code>
