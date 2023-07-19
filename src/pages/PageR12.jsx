@@ -71,6 +71,10 @@ export const PageR12 = () => {
       </code>
       <p>Para que Netlify acepte las variables de entorno fue necesario crear el archivo anterior además de que en la página de Netlify se deben agregar en las sección <b>Build & deploy</b> en la parte de <b>variables de entorno</b> se agregan las variables del proyecto y así solamente Netlify podrá ver y usar estas variables.</p>
       <p>Por último se compila el proyecto.</p>
+      <p className="note">
+        <i>Nota:<br/>
+        Si se utiliza vite, se tiene que instalar su CLI desde la terminal, y posiblemente se haga lo mismo con algun otro empaquetador.</i>
+      </p>
     </section>
     <footer>
       <h3>Referencias:</h3>
